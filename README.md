@@ -30,10 +30,24 @@ The utilization of UMA KPI option signals to the knowledgable shareholders an al
 
 ![image](https://user-images.githubusercontent.com/66903336/132374626-5cd56280-fa26-4a1c-adc8-afbed4605149.png)
 
-For instance, we note the lack of collateral and transparency in the following projects:
+For instance, we note the lack of collateral and transparency in the following projects that remind highly-conscious users the consequences of its absence:
 
 - Bitconnect: [textbook ponzi scheme (Department of Justice)](https://www.justice.gov/usao-sdca/pr/director-and-promoter-bitconnect-pleads-guilty-global-2-billion-cryptocurrency-scheme)
 
-- Save the Kids token: [Pump and Dump (CNBC)](https://www.nbcnews.com/tech/tech-news/wild-west-cryptocurrencies-social-media-influencers-rcna1469)
+- Save the Kids: [Pump and Dump (CNBC)](https://www.nbcnews.com/tech/tech-news/wild-west-cryptocurrencies-social-media-influencers-rcna1469)
 
-To conclude, our proposal and the design of [The Long Short Pair (LSP) template](https://docs.umaproject.org/synthetic-tokens/long-short-pair) that allows for the creation of unliquidatable capped-payout financial contracts eliminates the projects that bring little benefit in the long-term to the blockchain ecosystem. 
+**To conclude, our proposal and the design of [The Long Short Pair (LSP) template](https://docs.umaproject.org/synthetic-tokens/long-short-pair) reduces the incentives to cheat and eliminates projects that bring little benefit in the long-term to the blockchain ecosystem.**
+
+# Implementation of KPI Options
+
+1. You should submit two [UMA Improvement Proposals (UMIPs)](https://docs.umaproject.org/uma-tokenholders/umips). The first should add your governance token as a supported collateral type. The second should define a methodology for how the UMA Optimistic Oracle should price your KPI options.
+2. Once these proposals are approved through UMA governance, you can launch your expiring KPI Options contract! This can be done in a few minutes by following the [LSP deployment tutorial](https://github.com/UMAprotocol/launch-lsp).
+3. After your expiring contract has been launched, you will be able to mint KPI tokens by locking collateral in the contract. Once minted, you can airdrop these KPI tokens in whatever manner and to whoever you wish.
+4. Upon contract expiry, the KPI Options will be redeemable for an amount determined by your KPI’s progress. Alternatively, your project could decide to “roll over” into new KPI options to attempt to compound your KPI’s growth.
+
+## Further References
+
+- [UMA Discord](http://discourse.umaproject.org/)
+- [UMA KPI Support Email](hello@umaproject.org)
+- [KPI Options UMA](https://docs.umaproject.org/products/KPI-options)
+- [KPI Options on Medium](https://medium.com/uma-project/uma-kpi-options-and-airdrop-bae86be16ce4)
